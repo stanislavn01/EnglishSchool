@@ -1,0 +1,16 @@
+# Файлы сборки .NET
+bin/
+obj/
+
+# Настройки JetBrains Rider
+.idea/
+
+# Локальные настройки подключения к базе данных
+**/appsettings.json
+
+# Пользовательские файлы
+*.user
+*.suo
+
+# Настройки Visual Studio
+.vs/
