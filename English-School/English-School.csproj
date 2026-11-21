@@ -6,7 +6,8 @@
         <RootNamespace>English_School</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-    </PropertyGroup>
+      <UserSecretsId>9115e7c1-c99b-4982-a464-a9a1226b7b26</UserSecretsId>
+  </PropertyGroup>
 
     <ItemGroup>
       <Folder Include="Configurations\" />
@@ -19,6 +20,7 @@
         <PrivateAssets>all</PrivateAssets>
       </PackageReference>
       <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="11.0.0" />
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.0" />
     </ItemGroup>
 

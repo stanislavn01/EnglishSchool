@@ -22,6 +22,7 @@ public class AppDbContext : DbContext
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
+                .AddUserSecrets<AppDbContext>()
                 .Build();
 
             var connectionString = configuration
